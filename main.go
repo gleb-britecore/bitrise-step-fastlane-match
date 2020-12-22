@@ -292,7 +292,7 @@ func main() {
 	args := []string{
 		"match",
 		configs.Type,
-		"--readonly",
+		//"--readonly",
 	}
 
 	args = append(args, "--git_url", configs.GitURL)
@@ -301,10 +301,10 @@ func main() {
 	if configs.GitBranch != "" {
 		args = append(args, "--git_branch", configs.GitBranch)
 	}
-	
+
 	if configs.TeamID != "" {
 		args = append(args, "--team_id", configs.TeamID)
-	}	
+	}
 
 	args = append(args, options...)
 
