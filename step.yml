@@ -8,9 +8,9 @@
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
 title: |-
-  Fastlane Match
+  Fastlane Match No-Readonly
 summary: |
-  Download and install certificates and provisioning profiles managed with fastlane match
+  Download and install certificates and provisioning profiles managed with fastlane match, regenerate if needed
 description: |
   Download and install certificates and provisioning profiles, using the
   fastlane [Match](https://github.com/fastlane/fastlane/tree/master/match)
