@@ -1,3 +1,6 @@
+# This may be deprecated and replaced with https://github.com/bitrise-steplib/steps-fastlane
+Because 2fa has no mercy over developers
+
 # Fastlane Match
 
 Download and install certificates and provisioning profiles managed with fastlane match
